@@ -9,7 +9,7 @@ pub struct GlobalCommonArgs {
         long,
         global = true,
         help = "working directory",
-        default_value = "./pki",
+        default_value = "./",
         value_name = "DIR",
         value_hint = clap::ValueHint::DirPath,
     )]
